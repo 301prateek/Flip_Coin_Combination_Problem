@@ -132,7 +132,7 @@ do
 		HTT[0]=$htt
 	fi
 done
-echo
+
 echo "HHH percentage: $(((${HHH[@]}*100)/20))"
 echo "HHT percentage: $(((${HHT[@]}*100)/20))"
 echo "HTH percentage: $(((${HTH[@]}*100)/20))"
@@ -141,4 +141,23 @@ echo "TTT percentage: $(((${TTT[@]}*100)/20))"
 echo "TTH percentage: $(((${TTH[@]}*100)/20))"
 echo "THT percentage: $(((${THT[@]}*100)/20))"
 echo "HTT percentege: $(((${HTT[@]}*100)/20))"
+
+#Displaying Singlet
+echo "H: ${heads[@]}"
+echo "T: ${tails[@]}"
+#Displaying Doublet Combinations
+echo "HH: ${HH[@]}"
+echo "HT: ${HT[@]}"
+echo "TH: ${TH[@]}"
+echo "TT: ${TT[@]}"
+#Displaying Triplet Combinations
+echo "HHH: ${HHH[@]}"
+echo "HHT: ${HHT[@]}"
+echo "HTH: ${HTH[@]}"
+echo "THH: ${THH[@]}"
+echo "TTT: ${TTT[@]}"
+echo "TTH: ${TTH[@]}"
+echo "THT: ${THT[@]}"
+echo "HTT: ${HTT[@]}"
+
 
