@@ -31,4 +31,4 @@ echo "Heads: ${heads[@]}"
 echo "Tails: ${tails[@]}"
 
 echo "Percentage of Heads: $(((${heads[@]}*100)/20))"
-echo "Percentage of Heads: $(((${tails[@]}*100)/20))"
+echo "Percentage of Tails: $(((${tails[@]}*100)/20))"
